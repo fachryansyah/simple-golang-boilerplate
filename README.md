@@ -1,4 +1,4 @@
-# Lumen Auth with Laravel Permission 
+# Simple GOlang boilerplate
 
 This is simple boilerplate for web application created by me.
 
