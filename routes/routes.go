@@ -13,6 +13,7 @@ func SetRoutes() *mux.Router {
 		Masukkan Route kamu disini.
 	*/
 	router.HandleFunc("/user/get", controller.GetUser).Methods("GET")
+	router.HandleFunc("/from-auth/user/get", controller.LoginUser).Methods("GET")
 
 	return router
 }
